@@ -22,7 +22,7 @@ export default async function LandingPage({
   const t = await getTranslations("homepage");
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-purple-50 dark:to-purple-950/20">
+    <div className="min-h-screen bg-gradient-to-b from-background via-[#0f162d] to-[#0b1328] dark:via-[#0f162d] dark:to-[#0b1328]">
       {/* Hero Section */}
       <section className="container mx-auto px-4 pt-20 pb-16">
         <div className="text-center max-w-4xl mx-auto">
