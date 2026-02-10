@@ -25,23 +25,6 @@
           ]
         },
         {
-          "title": "AI Video",
-          "icon": "RiVideoAddLine",
-          "children": [
-            {
-              "title": "Veo3.0/3.1",
-              "description": "Veo video generation model",
-              "url": "/video-generate/veo",
-              "icon": "RiVideoUploadLine"
-            }
-          ]
-        },
-        {
-          "title": "AI Video Effects",
-          "url": "/video-effects",
-          "icon": "RiVideoLine"
-        },
-        {
           "title": "Image Tools",
           "icon": "RiImageLine",
           "children": [
@@ -182,21 +165,6 @@
             {
               "title": "Nano Banana",
               "url": "/txt-to-image/nano-banana",
-              "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "AI Video",
-          "children": [
-            {
-              "title": "Veo3.0/3.1",
-              "url": "/video-generate/veo",
-              "target": "_self"
-            },
-            {
-              "title": "AI Video Effects",
-              "url": "/video-effects",
               "target": "_self"
             }
           ]
