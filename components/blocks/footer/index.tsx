@@ -73,15 +73,15 @@ export default function Footer({ footer }: { footer: FooterType }) {
             <div className="flex items-center gap-2 justify-center lg:justify-start flex-wrap">
               {footer.copyright && (
                 <span>
-                  {footer.copyright.split('pixmind.service@aimix.pro')[0]}
+                  {footer.copyright.split('service@imageai.com')[0]}
                 </span>
               )}
-              {footer.copyright && footer.copyright.includes('pixmind.service@aimix.pro') && (
+              {footer.copyright && footer.copyright.includes('service@imageai.com') && (
                 <a
-                  href="mailto:pixmind.service@aimix.pro"
+                  href="mailto:service@imageai.com"
                   className="hover:text-primary underline"
                 >
-                  pixmind.service@aimix.pro
+                  service@imageai.com
                 </a>
               )}
             </div>

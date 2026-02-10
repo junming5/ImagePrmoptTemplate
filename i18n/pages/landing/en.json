@@ -156,7 +156,7 @@
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ImageAI. All rights reserved.  pixmind.service@aimix.pro",
+    "copyright": "© 2025 • ImageAI. All rights reserved.  service@imageai.com",
     "nav": {
       "items": [
         {
@@ -226,7 +226,7 @@
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:pixmind.service@aimix.pro",
+          "url": "mailto:service@imageai.com",
           "target": "_self"
         }
       ]

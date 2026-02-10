@@ -107,7 +107,7 @@ export default async function AdminLayout({
         },
         {
           title: "X",
-          url: "https://x.com/pixmindai",
+          url: "https://x.com",
           target: "_blank",
           icon: "RiTwitterLine",
         },

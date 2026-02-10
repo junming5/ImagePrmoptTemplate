@@ -1240,7 +1240,7 @@
     "step2_desc": "您的推广策略或平台",
     "step3": "3",
     "step3_desc": "您计划如何推广ImageAI",
-    "apply_button": "立即申请: pixmind.service@aimix.pro",
+    "apply_button": "立即申请: service@imageai.com",
     "review_desc": "我们的团队将审核您的申请并提供后续步骤指导。",
     "faq_title": "常见问题",
     "faq1_q": "30%的佣金涵盖什么？",
@@ -1258,10 +1258,10 @@
     "testimonial_button": "分享您的推荐",
     "email_title": "发送邮件",
     "email_content": "给我们发送电子邮件，我们会尽快回复您。",
-    "email_address": "pixmind.service@aimix.pro",
+    "email_address": "service@imageai.com",
     "social_title": "在X上关注我们",
     "social_content": "了解我们最新的功能和公告。",
-    "social_handle": "@SplendorZhang"
+    "social_handle": "@"
   },
   "developerApi": {
     "testing_phase": "测试阶段",
@@ -1285,8 +1285,8 @@
     "join_requirement2": "用例描述",
     "join_requirement3": "预期的每日API调用量",
     "join_requirement4": "预期的每分钟调用量",
-    "contact_us": "联系我们: pixmind.service@aimix.pro",
-    "contact_button": "联系我们: pixmind.service@aimix.pro",
+    "contact_us": "联系我们: service@imageai.com",
+    "contact_button": "联系我们: service@imageai.com",
     "pricing_title": "定价与访问",
     "pricing_desc1": "API使用不包含在我们的订阅计划中，需要单独付费。",
     "pricing_desc2": "订阅用户根据其层级获得免费的API测试调用。请联系我们获取详细的定价信息。",

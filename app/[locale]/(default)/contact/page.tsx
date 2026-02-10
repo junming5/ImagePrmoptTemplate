@@ -68,7 +68,7 @@ export default function ContactPage() {
                   {t('social_content')}
                 </p>
                 <Button asChild variant="outline" className="w-full">
-                  <Link href="https://x.com/SplendorZhang" target="_blank">
+                  <Link href="https://x.com/" target="_blank">
                     {t('social_handle')}
                   </Link>
                 </Button>

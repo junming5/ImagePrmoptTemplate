@@ -147,9 +147,9 @@ export default function AffiliatePage() {
                 </li>
               </ul>
               <Button asChild size="lg" className="bg-blue-500 hover:bg-blue-600 w-full md:w-auto">
-                <a href="mailto:pixmind.service@aimix.pro">
+                <a href="mailto:service@imageai.com">
                   <Mail className="h-5 w-5 mr-2" />
-                  Apply Now: pixmind.service@aimix.pro
+                  Apply Now: service@imageai.com
                 </a>
               </Button>
               <p className="text-sm text-muted-foreground mt-4">
