@@ -39,9 +39,9 @@ export function generateSEOMetadata(config: SEOConfig): Metadata {
     title,
     description,
     keywords,
-    authors: [{ name: 'Pixmind' }],
-    creator: 'Pixmind',
-    publisher: 'Pixmind',
+    authors: [{ name: 'ImageAI' }],
+    creator: 'ImageAI',
+    publisher: 'ImageAI',
 
     // Open Graph
     openGraph: {
@@ -50,7 +50,7 @@ export function generateSEOMetadata(config: SEOConfig): Metadata {
       url,
       title,
       description,
-      siteName: 'Pixmind',
+      siteName: 'ImageAI',
       images: [
         {
           url: imageUrl,
@@ -112,7 +112,7 @@ export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Pixmind',
+    name: 'ImageAI',
     url: baseUrl,
     logo: `${baseUrl}/logo.png`,
     description: 'Professional AI image generation and analysis platform with image-to-prompt and text-to-image capabilities',
@@ -188,7 +188,7 @@ export function generateArticleSchema(article: {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Pixmind',
+      name: 'ImageAI',
       logo: {
         '@type': 'ImageObject',
         url: `${baseUrl}/logo.png`,
