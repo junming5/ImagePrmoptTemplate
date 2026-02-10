@@ -105,12 +105,15 @@ export default function Header({ header }: { header: HeaderType }) {
               className="flex items-center gap-2"
             >
               {header.brand?.logo?.src && (
-                <img
-                  src={header.brand.logo.src}
-                  alt="ImagetoPrompt"
-                  className="w-8"
-                  style={{width: '145px', height: '45px'}}
-                />
+                <div className="relative inline-block group">
+                  <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-lg blur-md group-hover:blur-lg opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+                  <img
+                    src={header.brand.logo.src}
+                    alt="Logo"
+                    className="relative w-auto h-12 object-contain filter drop-shadow-lg hover:drop-shadow-xl transition-all duration-300 group-hover:scale-105"
+                    style={{height: '45px'}}
+                  />
+                </div>
               )}
               {/* {header.brand?.title && (
                 <span className="text-xl text-primary font-bold">
@@ -331,11 +334,15 @@ export default function Header({ header }: { header: HeaderType }) {
               className="flex items-center gap-2"
             >
               {header.brand?.logo?.src && (
-                <img
-                  src={header.brand.logo.src}
-                  alt="ImagetoPrompt"
-                  style={{width: '150px'}}
-                />
+                <div className="relative inline-block group">
+                  <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-lg blur-md opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+                  <img
+                    src={header.brand.logo.src}
+                    alt="Logo"
+                    className="relative h-10 object-contain filter drop-shadow-lg hover:drop-shadow-xl transition-all duration-300 group-hover:scale-110"
+                    style={{width: '150px'}}
+                  />
+                </div>
               )}
               {header.brand?.title && (
                 <span className="text-xl font-bold">
@@ -357,11 +364,15 @@ export default function Header({ header }: { header: HeaderType }) {
                       className="flex items-center gap-2"
                     >
                       {header.brand?.logo?.src && (
-                        <img
-                          src={header.brand.logo.src}
-                          alt="ImagetoPrompt"
-                          style={{width: '150px'}}
-                        />
+                        <div className="relative inline-block group">
+                          <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-lg blur-md opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+                          <img
+                            src={header.brand.logo.src}
+                            alt="Logo"
+                            className="relative object-contain filter drop-shadow-lg hover:drop-shadow-xl transition-all duration-300 group-hover:scale-110"
+                            style={{width: '150px'}}
+                          />
+                        </div>
                       )}
                       {header.brand?.title && (
                         <span className="text-xl font-bold">

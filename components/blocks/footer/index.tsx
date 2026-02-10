@@ -16,11 +16,14 @@ export default function Footer({ footer }: { footer: FooterType }) {
                 <div>
                   <div className="flex items-center justify-center gap-2 lg:justify-start">
                     {footer.brand.logo && (
-                      <img
-                        src={footer.brand.logo.src}
-                        alt={footer.brand.logo.alt || footer.brand.title}
-                        className="h-11"
-                      />
+                      <div className="relative inline-block group">
+                        <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-lg blur-md opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+                        <img
+                          src={footer.brand.logo.src}
+                          alt={footer.brand.logo.alt || footer.brand.title}
+                          className="relative h-11 object-contain filter drop-shadow-lg hover:drop-shadow-xl transition-all duration-300 group-hover:scale-110"
+                        />
+                      </div>
                     )}
                     {/* {footer.brand.title && (
                       <p className="text-3xl font-semibold">
